@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --Preto:#1A120B;
+    --Branco:#E5E5CB;
+    --Azul:#D5CEA3;
+    --Cor-hover: #3C2A21;
+    
+    --Krona: 'Krona One', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background: var(--Preto);
+    color: var(--Branco);
+    font-family: var(--Montserrat);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 10% ;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__link{
+    text-decoration: none;
+    font-family: var(--Montserrat);
+    color: var(--Azul);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%; 
+    gap: 10px;
+}
+
+.apresentacao__texto{
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__titulol{
+    font-size: 36px;
+    font-weight: 400;
+    font-family:var(--Krona);
+}
+.apresentacao__titulo b{
+    color: var(--Azul);
+    font-family: var(--Krona);
+}
+.apresentacao__paragrafo{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__subtitulo{
+    font-family: var(--Krona);
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__botao{
+    color: var(--Branco);
+    border: 2px solid var(--Azul);
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 21.5px 0;
+    font-size: 24px;
+    width: 378px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.apresentacao__botao:hover{
+    background-color: var(--Cor-hover);
+}
+
+.rodape{
+    background-color: var(--Azul);
+    text-align: center;
+    padding: 23px;
+    color: var(--Preto);
+    font-family: var(--Montserrat);
+    font-weight: 400;
+    font-size: 24px;
+}
