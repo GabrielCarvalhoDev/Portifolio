@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --Preto:#1A120B;
-    --Branco:#E5E5CB;
+    --Preto:#092d15;
+    --Branco:#ffffff;
     --Azul:#D5CEA3;
-    --Cor-hover: #3C2A21;
-    
+    --Cor-hover:#dfaba0;
     --Krona: 'Krona One', sans-serif;
     --Montserrat: 'Montserrat', sans-serif;
 }
@@ -106,4 +105,10 @@ body{
     font-family: var(--Montserrat);
     font-weight: 400;
     font-size: 24px;
+}
+
+.imagem_menina{
+    width: 30%;
+    border-radius: 50px;
+    align-items: center;
 }
